@@ -1,0 +1,46 @@
+/* Font imports */
+@font-face {
+    font-family: 'RedHatDisplayLight';
+    font-style: normal;
+    src: url(https://www.imponderable.dev/fonts/RedHatDisplay/RedHatDisplay-Light.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'RedHatText';
+    font-style: normal;
+    src: url(https://www.imponderable.dev/fonts/RedHatText/RedHatText-Regular.woff2) format('woff2');
+}
+
+/* CSS reset */
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Center content vertically and horizontally */
+
+html, body, header {
+    height: 100%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles individual elements */
+
+header h1 {
+    font-family: 'RedHatDisplayLight';
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+header p {
+    font-family: 'RedHatText';
+    text-align: center;
+}
+header a {
+    color: black;
+}
